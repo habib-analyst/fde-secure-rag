@@ -1,0 +1,6 @@
+fastapi>=0.110
+pydantic>=2
+uvicorn>=0.29
+# Optional: scikit-learn is used for TF-IDF when importable; a stdlib
+# TF-IDF implementation with identical ranking semantics is the fallback.
+scikit-learn>=1.3
